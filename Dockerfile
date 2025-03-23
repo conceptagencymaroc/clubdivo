@@ -10,8 +10,8 @@ COPY package.json pnpm-lock.yaml ./
 # Install pnpm globally
 RUN npm install -g pnpm
 
-# Install production dependencies
-RUN pnpm install --frozen-lockfile --prod
+# Install production dependencies without enforcing a frozen lockfile
+RUN pnpm install --no-frozen-lockfile --prod
 
 # Copy the rest of the application code
 COPY . .

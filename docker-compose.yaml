@@ -8,8 +8,4 @@ services:
     ports:
       - "3000:3000"
     environment:
-      # Add your environment variables here
       NODE_ENV: production
-    volumes:
-      - .:/app
-      - /app/node_modules
