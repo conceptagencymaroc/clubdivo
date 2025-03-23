@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { ModeToggle } from "@/components/mode-toggle"
 import { ComingSoonDialog } from "@/components/coming-soon-dialog"
 import { useTheme } from "next-themes"
+import { Header } from '@/components/Header';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
