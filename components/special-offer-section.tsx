@@ -98,8 +98,8 @@ export function SpecialOfferSection() {
                     <span>Accès à la communauté privée</span>
                   </div>
                   <div className="mt-6 flex items-baseline gap-2">
-                    <span className="text-3xl font-bold">149€</span>
-                    <span className="text-muted-foreground line-through">299€</span>
+                    <span className="text-3xl font-bold">1800</span>
+                    <span className="text-muted-foreground line-through">3000</span>
                     <span className="text-sm text-muted-foreground">/an</span>
                   </div>
                 </CardContent>
