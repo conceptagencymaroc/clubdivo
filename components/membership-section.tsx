@@ -77,9 +77,9 @@ export function MembershipSection() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="flex items-baseline gap-2">
-                    <span className="text-4xl font-bold">249€</span>
+                    <span className="text-4xl font-bold">1500</span>
                     <span className="text-sm text-muted-foreground">/an</span>
-                    <span className="text-sm text-muted-foreground line-through">348€</span>
+                    <span className="text-sm text-muted-foreground line-through">3500</span>
                   </div>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-2">
